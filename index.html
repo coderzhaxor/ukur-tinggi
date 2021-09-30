@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplikasi Menghitung Tinggi</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Menghitung Tinggi Badan Anak</h1>
+
+      <p>Jenis Kelamin Anak Anda:</p>
+
+      <select name="kelamin" id="jk">
+        <option value="cowok">Laki - laki</option>
+        <option value="cewek">Perempuan</option>
+      </select>
+
+      <p>Tinggi Ayah :</p>
+
+      <input type="number" placeholder="Masukan ukuran menurut cm" id="tinggiAyah" required />
+
+      <p>Tinggi Ibu :</p>
+
+      <input type="number" placeholder="Masukan ukuran menurut cm" id="tinggiIbu" required />
+
+      <input type="submit" value="Hitung" id="button" onclick="hitung()" required />
+    </div>
+
+    <!-- box-notice -->
+    <div class="box-notice">
+      <div class="kotak-box">
+        <div class="navbar">
+          <h3>Hasil Perkiraan</h3>
+          <i class="fas fa-times" id="oke"></i>
+        </div>
+        <p id="hasil"></p>
+      </div>
+    </div>
+    <!-- box-notice -->
+    <p>&copy; Copyright - A Life 2021</p>
+
+    <!-- javascript mhank -->
+    <script src="/js/script.js"></script>
+  </body>
+</html>
