@@ -6,13 +6,13 @@
 
 - Tinggi anak laki-laki
 
-  ```javascript
+  ```bash
   TPG = (TB ibu + 13) + TB ayah) / 2 ± 8.5 cm
   ```
 
 - Tinggi anak perempuan
 
-  ```javascript
+  ```bash
   TPG = (TB ayah - 13 + TB ibu) / 2 ± 8.5 cm
   ```
 
